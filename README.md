@@ -5,18 +5,18 @@
 ### Create a project and configure billing
 
 1) Go to the [Manage resources](https://console.cloud.google.com/cloud-resource-manager?) page in the Cloud Console.
-2) Select the organization in which the project should be created from organization drop-down list at the top of the page.
+2) Select the organization, in which the project should be created, from organization drop-down list at the top of the page.
 3) Click Create Project.
 4) [Configure billing](https://cloud.google.com/billing/docs/how-to/manage-billing-account) for the project.
 
-### Install and configure the Google cloud SDK*
+### Install and configure the Google cloud SDK
 
 Download the [SDK](https://cloud.google.com/sdk/docs/) and run the installation:
 ```
 ./google-cloud-sdk/install.sh
 ```
 
-### Create Service account for Terraform and credentials file :
+### Create Service account for Terraform and credentials file
 
 1) Create a Service account at project level and grant role/owner
 2) Create credentials file for the Service account
@@ -31,7 +31,7 @@ created key [e44da1202f82f8f4bdd9d92bc412d1d8a837fa83] of type [json] as
 [SA-NAME@PROJECT-ID.iam.gserviceaccount.com]
 ```
 
-### Enable Below:
+### Enable Below APIs
 
 - [Enable Compute Engine API](https://console.cloud.google.com/apis/library/compute.googleapis.com/)
 - [Enable Kubernetes Engine API](https://console.cloud.google.com/apis/library/container.googleapis.com)
