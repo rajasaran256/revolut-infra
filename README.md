@@ -16,7 +16,7 @@ Download the [SDK](https://cloud.google.com/sdk/docs/) and run the installation:
 ./google-cloud-sdk/install.sh
 ```
 
-### Create Service account for Terraform and credentials file
+### Create Service account for Terraform and download the credentials file
 
 1) Create a Service account at project level and grant role/owner
 2) Create credentials file for the Service account
