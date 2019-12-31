@@ -42,7 +42,7 @@ created key [e44da1202f82f8f4bdd9d92bc412d1d8a837fa83] of type [json] as
 ### Download the repository
 
 ```bash
-$ git clone
+$ git clone git@github.com:rajasaran256/revolut-infra.git
 ```
 
 ### Add terraform.tfvars file
@@ -81,8 +81,8 @@ terraform destroy to destroy the built infrastructure
 | region | Region in which the services will be created | string | n/a | yes |
 | subnet_ip | IP range for the subnet | string | n/a | yes |
 | gke_cluster_name | Name of the GKE cluster | string | n/a | yes |
-| service_account_id | Service account for Application pipeline | string | n/a | no |
-| gcs_bucket_name | Name of GCS bucket where the configuration for application pipeline will be stored | string | n/a | no |
+| service_account_id | Service account for Application pipeline | string | n/a | yes |
+| gcs_bucket_name | Name of GCS bucket where the configuration for application pipeline will be stored | string | n/a | yes |
 
 ## Outputs
 
