@@ -1,4 +1,4 @@
-# Infrastructure
+# Terraform code for infrastructure provisioning
 
 ## Prerequisites
 
