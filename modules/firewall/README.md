@@ -8,9 +8,9 @@ Creates and manages Network Firewall rules.
 module firewall-module {
   source = "./modules/firewall"
   name = "ssh-rule"
-  network = "test-vpc"
+  network = "demo-vpc"
   protocol = "tcp"
-  ports = ["ssh"]
+  ports = ["22"]
   source_ranges = ["0.0.0.0/0"]
   target_tags = [""]
 }
