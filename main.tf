@@ -45,6 +45,9 @@ module firewall {
   source_ranges = ["0.0.0.0/0"]
 }
 
+# ------------------------------------------------------------------------------
+# FETCHING GCR URL
+# ------------------------------------------------------------------------------
 data "google_container_registry_repository" "gcr" {
   project = var.project
   region  = var.region
