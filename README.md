@@ -24,7 +24,7 @@ Download the [SDK](https://cloud.google.com/sdk/docs/) and run the installation:
 $ gcloud iam service-accounts keys create ~/key.json \
   --iam-account [SA-NAME]@[PROJECT-ID].iam.gserviceaccount.com
 ```
-If successful, then below output:
+If successful, then below output
 ```bash
 created key [e44da1202f82f8f4bdd9d92bc412d1d8a837fa83] of type [json] as
 [/usr/home/username/key.json] for
@@ -63,11 +63,14 @@ gcs_bucket_name     = "gcs-app-config"
 
 ### Execution
 
-Then perform the following commands on the root folder:
+Then perform the following commands on the root folder
 
 terraform init to get the plugins
+
 terraform plan to see the infrastructure plan
+
 terraform apply to apply the infrastructure build
+
 terraform destroy to destroy the built infrastructure
 
 ## Inputs
