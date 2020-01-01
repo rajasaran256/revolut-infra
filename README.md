@@ -91,33 +91,3 @@ terraform destroy to destroy the built infrastructure
 | app_pipeline_service_account | Service account for application pipeline |
 | gcr_location | GCR registry URL |
 | gcs_bucket | GCS bucket to store infrastructure configuration |
-
-## Customisable Properties
-
-Below properties of the Infrastructure can be customised by setting Terraform resource arguments with input variables. These are:
-
-- GCP project ID
-- VPC
-  - VPC name
-  - GCP project ID
-- Subnet
-  - Subnet name
-  - Subnet IP range
-  - Subnet region
-  - VPC name
-  - GCP project ID
-- GKE Cluster
-  - GCP project ID
-  - VPC network and subnetwork names
-  - Cluster name
-  - GCP location
-    - Specify a zone for a zonal cluster (e.g. europe-west1-b)
-    - Specify a region for a regional cluster (e.g. europe-west1)
-  - Node pools
-    - Name
-- Service account (for application pipeline)
-  - Service account name (a random number will be added to the suffix to make the ID unique)
-  - GCP project ID
-- GCS bucket (to store infrastructure configuration for application pipeline)
-  - GCP project ID
-  - GCS bucket name (a random number will be added to the suffix to make the ID unique)
