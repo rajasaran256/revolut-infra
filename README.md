@@ -42,7 +42,7 @@ created key [e44da1202f82f8f4bdd9d92bc412d1d8a837fa83] of type [json] as
 ### Download the repository
 
 ```bash
-$ git clone git@github.com:rajasaran256/revolut-infra.git
+$ git clone https://github.com/rajasaran256/revolut-infra.git
 ```
 
 ### Add terraform.tfvars file
